@@ -214,7 +214,7 @@
 		CB9FDC4515E9872D00B3713E /* GuildBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				CBAB27BE15E9B8720068516D /* view controllers */,
+				CBAB27BE15E9B8720068516D /* controllers */,
 				CBAB27BD15E9B83A0068516D /* views */,
 				CBAB27BB15E9B82A0068516D /* model */,
 				CB9FDD2615E9B34900B3713E /* WoWApiClient.h */,
@@ -348,7 +348,7 @@
 			name = views;
 			sourceTree = "<group>";
 		};
-		CBAB27BE15E9B8720068516D /* view controllers */ = {
+		CBAB27BE15E9B8720068516D /* controllers */ = {
 			isa = PBXGroup;
 			children = (
 				CB9FDD1A15E9B34900B3713E /* CharacterDetailViewController.h */,
@@ -358,7 +358,7 @@
 				CB9FDD2415E9B34900B3713E /* SetttingsViewController.h */,
 				CB9FDD2515E9B34900B3713E /* SetttingsViewController.m */,
 			);
-			name = "view controllers";
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,7 +398,7 @@
 			name = GuildBrowserTests;
 			productName = GuildBrowserTests;
 			productReference = CB9FDC5C15E9872E00B3713E /* GuildBrowserTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
